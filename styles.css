@@ -1,5 +1,6 @@
 .person{
     border:solid;
+    border-color:#333;
     padding:16px;
     margin:8px;
     width: 400px;
@@ -27,12 +28,21 @@
     margin: 20px;
 }
 
+html{
+    background:#262626
+}
+
 header{
     width:50%;
     margin:auto;
 }
 
+a {
+    color:#38f;
+}
+
 body{
+    color:#eee;
     width:90%;
     margin:auto;
 }
