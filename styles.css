@@ -1,34 +1,38 @@
-html {
-    width: 600px;
-    margin: auto;
-}
-.Title{
-    font-size: 50px;
-    font-weight: bold;
-}
-.Intro{
-    font-size: 30px
+.person{
+    border:solid;
+    padding:16px;
+    margin:8px;
+    width: 400px;
+    float:left;
 }
 
-.Images{
-    height: 400px;
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    max-width: fit-content;
+    margin:auto;
 }
-.Name{
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+
+.person_image{
+    height: 300px;
 }
-.Membertext{
-    margin: 5px
+@media (max-width:900px) {
+    .flex-container{
+        flex-direction:column;
+    }
 }
-.SubTitles{
-    font-size: 20px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-right: 250px;
-}
-.AppUI{
+
+.app_image{
     height: 700px;
     margin: 20px;
+}
+
+header{
+    width:50%;
+    margin:auto;
+}
+
+body{
+    width:90%;
+    margin:auto;
 }
